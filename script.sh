@@ -5,6 +5,10 @@
 #DL sources nopol intro-class finch epr-asm
 
 
+#git clone git://orgmode.org/org-mode.git
+#apt-get install  tangled
+#git clone https://github.com/technomancy/leiningen.git
+
 
 #Compiling Nopol
 
