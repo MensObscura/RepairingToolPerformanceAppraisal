@@ -1,0 +1,13 @@
+parent.0	=	../ecj/bc/bytecode.params
+
+# major parameters change
+ec.subpop.size					= 1000
+generations						= 11
+
+# bytecode invidividual and its evaluator
+bytecode.ind.class				= esi.finch.probs.median_fe9d5fb9_008
+bytecode.ind.method-name		= exec
+bytecode.ind.xo-class			= esi.finch.xo.GaussianCrossoverFinder
+bytecode.ind.max-growth			= 4.0
+
+bytecode.prob.eval-class		= esi.finch.probs.IntroClassEvaluator
