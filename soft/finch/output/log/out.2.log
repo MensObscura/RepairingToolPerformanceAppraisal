@@ -1,44 +1,76 @@
-févr. 02, 2016 10:34:38 AM esi.util.Config <clinit>
+févr. 04, 2016 8:04:02 PM esi.util.Config <clinit>
 INFOS: Logger configured: file:/local/rosa/IDL/Genetic/RepairingToolPerformanceAppraisal/soft/finch/conf/logging.properties
-févr. 02, 2016 10:34:38 AM esi.util.Config <clinit>
+févr. 04, 2016 8:04:02 PM esi.util.Config <clinit>
 INFOS: Loaded properties: file:/local/rosa/IDL/Genetic/RepairingToolPerformanceAppraisal/soft/finch/conf/esi.properties
-févr. 02, 2016 10:34:38 AM esi.finch.ecj.Experiment <init>
+févr. 04, 2016 8:04:02 PM esi.finch.ecj.Experiment <init>
 INFOS: Experiment configured:
     -file /local/rosa/IDL/Genetic/RepairingToolPerformanceAppraisal/soft/finch/bin/esi/finch/probs/intro-class.params
     -p eval.problem=esi.finch.ecj.bc.BytecodeProblem
     -p prefix=../output/ecj/cp
     -p stat.file=$../output/ecj/ecj.log
-févr. 02, 2016 10:34:38 AM esi.finch.ecj.Experiment run
+févr. 04, 2016 8:04:02 PM esi.finch.ecj.Experiment run
 INFOS: Running experiment esi.finch.ecj.bc.BytecodeProblem / intro-class.params
-févr. 02, 2016 10:34:38 AM esi.finch.ecj.bc.BytecodeProblem setup
+févr. 04, 2016 8:04:02 PM esi.finch.ecj.bc.BytecodeProblem setup
 INFOS: Bytecode problem set up:
     eval-class=esi.finch.probs.IntroClassEvaluator
     timeout=5000ms
     steps=0
-févr. 02, 2016 10:34:38 AM esi.finch.ecj.immutable.ImmutableCrossoverPipeline setup
+févr. 04, 2016 8:04:02 PM esi.finch.ecj.immutable.ImmutableCrossoverPipeline setup
 INFOS: Crossover pipeline set up
-févr. 02, 2016 10:34:38 AM esi.finch.ecj.immutable.ImmutableMutationPipeline setup
+févr. 04, 2016 8:04:02 PM esi.finch.ecj.immutable.ImmutableMutationPipeline setup
 INFOS: Mutation pipeline set up
-févr. 02, 2016 10:34:38 AM esi.finch.ecj.bc.BytecodeIndividual setup
+févr. 04, 2016 8:04:02 PM esi.finch.ecj.bc.BytecodeIndividual setup
 INFOS: Bytecode individual set up:
-    class=esi.finch.probs.median_fe9d5fb9_008
+    class=esi.finch.probs.syllables_fcf701e8_002
     method=exec()V
-    size=141
+    size=150
     xo-class=esi.finch.xo.GaussianCrossoverFinder
     mut-class=none
     max-growth=4.0
-févr. 02, 2016 10:34:38 AM esi.finch.ecj.immutable.ImmutableSpecies setup
+févr. 04, 2016 8:04:02 PM esi.finch.ecj.immutable.ImmutableSpecies setup
 INFOS: Species set up:
     xo=0.9
     mut=0.0
-févr. 02, 2016 10:34:38 AM esi.finch.ecj.bc.BytecodeStatistics postInitializationStatistics
+févr. 04, 2016 8:04:02 PM esi.finch.ecj.bc.BytecodeStatistics postInitializationStatistics
 INFOS: Population initialized:
-    sub-pop 0 size=10000
-févr. 02, 2016 10:34:38 AM esi.util.SandBox <clinit>
+    sub-pop 0 size=1000
+févr. 04, 2016 8:04:02 PM esi.util.SandBox <clinit>
 INFOS: Creating sandbox thread pool
-févr. 02, 2016 10:35:12 AM esi.finch.xo.RandomCrossoverFinder getSuggestion
-AVERTISSEMENT: Compatible crossover: DEST=esi.finch.probs.median_fe9d5fb9_008.exec()V, SRC=esi.finch.probs.median_fe9d5fb9_008.exec()V failed after 1000 attempts
-févr. 02, 2016 10:35:18 AM esi.finch.ecj.Experiment run
-INFOS: Experiment completed
-févr. 02, 2016 10:35:18 AM esi.util.SandBox shutdown
-INFOS: Shutting down sandbox thread pool
+févr. 04, 2016 8:04:17 PM esi.finch.xo.RandomCrossoverFinder getSuggestion
+AVERTISSEMENT: Compatible crossover: DEST=esi.finch.probs.syllables_fcf701e8_002_G2_T1_528.exec()V, SRC=esi.finch.probs.syllables_fcf701e8_002_G2_T0_679.exec()V failed after 1000 attempts
+févr. 04, 2016 8:04:32 PM esi.finch.xo.RandomCrossoverFinder getSuggestion
+AVERTISSEMENT: Compatible crossover: DEST=esi.finch.probs.syllables_fcf701e8_002_G3_T0_1147.exec()V, SRC=esi.finch.probs.syllables_fcf701e8_002_G3_T0_1023.exec()V failed after 1000 attempts
+févr. 04, 2016 8:04:34 PM esi.finch.xo.RandomCrossoverFinder getSuggestion
+AVERTISSEMENT: Compatible crossover: DEST=esi.finch.probs.syllables_fcf701e8_002_G3_T1_1332.exec()V, SRC=esi.finch.probs.syllables_fcf701e8_002_G3_T0_1292.exec()V failed after 1000 attempts
+févr. 04, 2016 8:04:50 PM esi.finch.xo.RandomCrossoverFinder getSuggestion
+AVERTISSEMENT: Compatible crossover: DEST=esi.finch.probs.syllables_fcf701e8_002_G4_T0_1772.exec()V, SRC=esi.finch.probs.syllables_fcf701e8_002_G4_T1_1638.exec()V failed after 1000 attempts
+févr. 04, 2016 8:04:52 PM esi.finch.xo.RandomCrossoverFinder getSuggestion
+AVERTISSEMENT: Compatible crossover: DEST=esi.finch.probs.syllables_fcf701e8_002_G4_T1_1620.exec()V, SRC=esi.finch.probs.syllables_fcf701e8_002_G4_T0_1555.exec()V failed after 1000 attempts
+févr. 04, 2016 8:04:54 PM esi.finch.xo.RandomCrossoverFinder getSuggestion
+AVERTISSEMENT: Compatible crossover: DEST=esi.finch.probs.syllables_fcf701e8_002_G4_T0_1447.exec()V, SRC=esi.finch.probs.syllables_fcf701e8_002_G4_T0_1595.exec()V failed after 1000 attempts
+févr. 04, 2016 8:04:54 PM esi.finch.xo.RandomCrossoverFinder getSuggestion
+AVERTISSEMENT: Compatible crossover: DEST=esi.finch.probs.syllables_fcf701e8_002_G4_T1_1778.exec()V, SRC=esi.finch.probs.syllables_fcf701e8_002_G4_T0_1727.exec()V failed after 1000 attempts
+févr. 04, 2016 8:05:28 PM esi.finch.xo.RandomCrossoverFinder getSuggestion
+AVERTISSEMENT: Compatible crossover: DEST=esi.finch.probs.syllables_fcf701e8_002_G5_T0_1861.exec()V, SRC=esi.finch.probs.syllables_fcf701e8_002_G5_T0_2208.exec()V failed after 1000 attempts
+févr. 04, 2016 8:05:33 PM esi.finch.xo.RandomCrossoverFinder getSuggestion
+AVERTISSEMENT: Compatible crossover: DEST=esi.finch.probs.syllables_fcf701e8_002_G4_T0_1552.exec()V, SRC=esi.finch.probs.syllables_fcf701e8_002_G5_T0_1877.exec()V failed after 1000 attempts
+févr. 04, 2016 8:05:35 PM esi.finch.xo.RandomCrossoverFinder getSuggestion
+AVERTISSEMENT: Compatible crossover: DEST=esi.finch.probs.syllables_fcf701e8_002_G5_T0_2016.exec()V, SRC=esi.finch.probs.syllables_fcf701e8_002_G5_T0_1969.exec()V failed after 1000 attempts
+févr. 04, 2016 8:05:36 PM esi.finch.xo.RandomCrossoverFinder getSuggestion
+AVERTISSEMENT: Compatible crossover: DEST=esi.finch.probs.syllables_fcf701e8_002_G5_T1_2148.exec()V, SRC=esi.finch.probs.syllables_fcf701e8_002_G5_T0_2017.exec()V failed after 1000 attempts
+févr. 04, 2016 8:05:37 PM esi.finch.xo.RandomCrossoverFinder getSuggestion
+AVERTISSEMENT: Compatible crossover: DEST=esi.finch.probs.syllables_fcf701e8_002_G5_T0_2225.exec()V, SRC=esi.finch.probs.syllables_fcf701e8_002_G5_T1_1824.exec()V failed after 1000 attempts
+févr. 04, 2016 8:05:40 PM esi.finch.xo.RandomCrossoverFinder getSuggestion
+AVERTISSEMENT: Compatible crossover: DEST=esi.finch.probs.syllables_fcf701e8_002_G4_T1_1519.exec()V, SRC=esi.finch.probs.syllables_fcf701e8_002_G5_T0_2115.exec()V failed after 1000 attempts
+févr. 04, 2016 8:05:42 PM esi.finch.xo.RandomCrossoverFinder getSuggestion
+AVERTISSEMENT: Compatible crossover: DEST=esi.finch.probs.syllables_fcf701e8_002_G5_T1_2129.exec()V, SRC=esi.finch.probs.syllables_fcf701e8_002_G5_T0_1922.exec()V failed after 1000 attempts
+févr. 04, 2016 8:05:44 PM esi.finch.xo.RandomCrossoverFinder getSuggestion
+AVERTISSEMENT: Compatible crossover: DEST=esi.finch.probs.syllables_fcf701e8_002_G5_T0_2187.exec()V, SRC=esi.finch.probs.syllables_fcf701e8_002_G5_T0_2209.exec()V failed after 1000 attempts
+févr. 04, 2016 8:05:46 PM esi.finch.xo.RandomCrossoverFinder getSuggestion
+AVERTISSEMENT: Compatible crossover: DEST=esi.finch.probs.syllables_fcf701e8_002_G5_T1_1897.exec()V, SRC=esi.finch.probs.syllables_fcf701e8_002_G5_T0_1881.exec()V failed after 1000 attempts
+févr. 04, 2016 8:05:47 PM esi.finch.xo.RandomCrossoverFinder getSuggestion
+AVERTISSEMENT: Compatible crossover: DEST=esi.finch.probs.syllables_fcf701e8_002_G4_T1_1778.exec()V, SRC=esi.finch.probs.syllables_fcf701e8_002_G5_T0_1991.exec()V failed after 1000 attempts
+févr. 04, 2016 8:05:49 PM esi.finch.xo.RandomCrossoverFinder getSuggestion
+AVERTISSEMENT: Compatible crossover: DEST=esi.finch.probs.syllables_fcf701e8_002_G5_T1_1926.exec()V, SRC=esi.finch.probs.syllables_fcf701e8_002_G5_T1_1924.exec()V failed after 1000 attempts
+févr. 04, 2016 8:05:51 PM esi.finch.xo.RandomCrossoverFinder getSuggestion
+AVERTISSEMENT: Compatible crossover: DEST=esi.finch.probs.syllables_fcf701e8_002_G5_T1_2134.exec()V, SRC=esi.finch.probs.syllables_fcf701e8_002_G5_T1_2035.exec()V failed after 1000 attempts

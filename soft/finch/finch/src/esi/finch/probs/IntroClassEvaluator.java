@@ -66,7 +66,7 @@ public class IntroClassEvaluator implements BytecodeEvaluator {
 		else {
 			org.junit.runner.Result resultTest = null;
 			try {
-				Class<?> test = Class.forName("median_fe9d5fb9_008WhiteboxTest");
+				Class<?> test = Class.forName("syllables_fcf701e8_002WhiteboxTest");
 				resultTest =JUnitCore.runClasses(test);
 			} catch (ClassNotFoundException e) {
 				System.out.println("Class not found : " +e );
@@ -75,9 +75,9 @@ public class IntroClassEvaluator implements BytecodeEvaluator {
 			if(resultTest != null){
 				ideal = resultTest.wasSuccessful();
 				finess = resultTest.getRunCount() - resultTest.getFailureCount();
+				System.out.println("IntroClassEvaluator : finess = "+ resultTest.getRunCount() +"-"+ resultTest.getFailureCount());
 			}
 		}
-
 
 		//if all test green, then result true else false
 		return new Result(finess, ideal);
