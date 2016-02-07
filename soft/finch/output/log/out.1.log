@@ -1,4 +1,42 @@
-févr. 07, 2016 3:19:30 AM esi.util.Config <clinit>
+févr. 07, 2016 9:50:40 AM esi.util.Config <clinit>
 INFOS: Logger configured: file:/home/rosa/IDL/RepairingToolPerformanceAppraisal/soft/finch/conf/logging.properties
-févr. 07, 2016 3:19:30 AM esi.util.Config <clinit>
+févr. 07, 2016 9:50:40 AM esi.util.Config <clinit>
 INFOS: Loaded properties: file:/home/rosa/IDL/RepairingToolPerformanceAppraisal/soft/finch/conf/esi.properties
+févr. 07, 2016 9:50:40 AM esi.finch.ecj.Experiment <init>
+INFOS: Experiment configured:
+    -file /home/rosa/IDL/RepairingToolPerformanceAppraisal/soft/finch/bin/esi/finch/probs/intro-class.params
+    -p eval.problem=esi.finch.ecj.bc.BytecodeProblem
+    -p prefix=../output/ecj/cp
+    -p stat.file=$../output/ecj/ecj.log
+févr. 07, 2016 9:50:40 AM esi.finch.ecj.Experiment run
+INFOS: Running experiment esi.finch.ecj.bc.BytecodeProblem / intro-class.params
+févr. 07, 2016 9:50:40 AM esi.finch.ecj.bc.BytecodeProblem setup
+INFOS: Bytecode problem set up:
+    eval-class=esi.finch.probs.IntroClassEvaluator
+    timeout=5000ms
+    steps=0
+févr. 07, 2016 9:50:40 AM esi.finch.ecj.immutable.ImmutableCrossoverPipeline setup
+INFOS: Crossover pipeline set up
+févr. 07, 2016 9:50:40 AM esi.finch.ecj.immutable.ImmutableMutationPipeline setup
+INFOS: Mutation pipeline set up
+févr. 07, 2016 9:50:40 AM esi.finch.ecj.bc.BytecodeIndividual setup
+INFOS: Bytecode individual set up:
+    class=esi.finch.probs.syllables_fcf701e8_002
+    method=exec()V
+    size=150
+    xo-class=esi.finch.xo.RandomCrossoverFinder
+    mut-class=none
+    max-growth=4.0
+févr. 07, 2016 9:50:40 AM esi.finch.ecj.immutable.ImmutableSpecies setup
+INFOS: Species set up:
+    xo=0.9
+    mut=0.0
+févr. 07, 2016 9:50:40 AM esi.finch.ecj.bc.BytecodeStatistics postInitializationStatistics
+INFOS: Population initialized:
+    sub-pop 0 size=1000
+févr. 07, 2016 9:51:05 AM esi.finch.ecj.Experiment run
+INFOS: Experiment completed
+févr. 07, 2016 9:51:05 AM esi.util.SandBox <clinit>
+INFOS: Creating sandbox thread pool
+févr. 07, 2016 9:51:05 AM esi.util.SandBox shutdown
+INFOS: Shutting down sandbox thread pool

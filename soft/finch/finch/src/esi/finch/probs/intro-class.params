@@ -7,7 +7,7 @@ generations						= 11
 # bytecode invidividual and its evaluator
 bytecode.ind.class				= esi.finch.probs.syllables_fcf701e8_002
 bytecode.ind.method-name		= exec
-bytecode.ind.xo-class			= esi.finch.xo.GaussianCrossoverFinder
+bytecode.ind.xo-class			= esi.finch.xo.UniformCrossoverFinder
 bytecode.ind.max-growth			= 4.0
 
 bytecode.prob.eval-class		= esi.finch.probs.IntroClassEvaluator
