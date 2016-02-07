@@ -3,93 +3,81 @@ Generation: 0
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: 0.0
+Fitness: 5.0
 Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
-esi.finch.probs.syllables_fcf701e8_002@eed1f14
 
 Generation: 1
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: 0.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002_G1_T0_1.exec()V [1732]
-esi.finch.probs.syllables_fcf701e8_002_G1_T0_1@7229724f
+Fitness: 5.0
+Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
 
 Generation: 2
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: 0.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002_G2_T0_452.exec()V [1626]
-esi.finch.probs.syllables_fcf701e8_002_G2_T0_452@4c873330
+Fitness: 5.0
+Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
 
 Generation: 3
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: 0.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002_G3_T0_902.exec()V [1728]
-esi.finch.probs.syllables_fcf701e8_002_G3_T0_902@119d7047
+Fitness: 5.0
+Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
 
 Generation: 4
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: 0.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002_G3_T0_1082.exec()V [1705]
-esi.finch.probs.syllables_fcf701e8_002_G3_T0_1082@776ec8df
+Fitness: 5.0
+Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
 
 Generation: 5
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: 0.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002_G5_T0_1807.exec()V [1199]
-esi.finch.probs.syllables_fcf701e8_002_G5_T0_1807@4eec7777
+Fitness: 5.0
+Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
 
 Generation: 6
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: 0.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002_G6_T0_2249.exec()V [1704]
-esi.finch.probs.syllables_fcf701e8_002_G6_T0_2249@3b07d329
+Fitness: 5.0
+Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
 
 Generation: 7
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: 0.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002_G7_T0_2699.exec()V [840]
-esi.finch.probs.syllables_fcf701e8_002_G7_T0_2699@41629346
+Fitness: 5.0
+Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
 
 Generation: 8
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: 0.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002_G8_T0_3143.exec()V [1790]
-esi.finch.probs.syllables_fcf701e8_002_G8_T0_3143@404b9385
+Fitness: 5.0
+Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
 
 Generation: 9
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: 0.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002_G9_T0_3589.exec()V [1753]
-esi.finch.probs.syllables_fcf701e8_002_G9_T0_3589@6d311334
+Fitness: 5.0
+Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
 
 Generation: 10
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: 0.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002_G8_T0_3271.exec()V [1528]
-esi.finch.probs.syllables_fcf701e8_002_G8_T0_3271@682a0b20
+Fitness: 5.0
+Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
 
 Best Individual of Run:
 Subpopulation 0:
 Evaluated: T
-Fitness: 0.0
+Fitness: 5.0
 Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
-esi.finch.probs.syllables_fcf701e8_002@eed1f14
