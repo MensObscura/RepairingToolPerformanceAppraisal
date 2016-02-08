@@ -2,7 +2,7 @@ package esi.finch.probs.introclass.test;
 
 import org.junit.Test;
 
-import esi.finch.probs.IntroClassEvaluator;
+import esi.finch.probs.IntroClassWhiteBoxEvaluator;
 import esi.finch.probs.introclass.src.smallest_15cb07a7_007;
 import esi.util.Config;
 
@@ -20,17 +20,17 @@ public class smallest_15cb07a7_007WhiteboxTest {
 	
 	Object mainClass;
 	Method mainMethod;
-	Scanner scanner;
-	String output;
+	Field scanner;
+	Field output;
 	@Before
 	public void getClassFromEvalutaor(){
 		try {
 			
-				mainClass =  IntroClassEvaluator.getGeneratedClass().newInstance();
+				mainClass =  IntroClassWhiteBoxEvaluator.getGeneratedClass().newInstance();
 			
 				Method[] m = mainClass.getClass().getMethods();
 				for(int i = 0 ; i < m.length; i++){
-					if(m[i].getName().equals("getToto")){
+					if(m[i].getName().equals("exec")){
 						mainMethod = m[i];
 						continue;
 					}
@@ -38,19 +38,19 @@ public class smallest_15cb07a7_007WhiteboxTest {
 				
 				for (Field f : mainClass.getClass().getDeclaredFields()) {
 					if(f.getName().equals("scanner")){
-						scanner = ((Scanner)f.get(mainClass));
+						scanner =f;
 						
 					}
 					
 					if(f.getName().equals("output")){
-						output = ((String)f.get(mainClass));
+						output = f;
 						
 					}
 					
 				}
 				
 			} catch (InstantiationException | IllegalAccessException e) {
-				log.error("fail to get GeneratedClass  or Cant get method from: "+IntroClassEvaluator.getGeneratedClass());
+				log.error("fail to get GeneratedClass  or Cant get method from: "+IntroClassWhiteBoxEvaluator.getGeneratedClass());
 			}
 	
 		
@@ -59,66 +59,66 @@ public class smallest_15cb07a7_007WhiteboxTest {
     @Test (timeout = 1000) public void test1 () throws Exception {
         String expected =
             "Please enter 4 numbers separated by spaces > 0 is the smallest";
-        scanner = new java.util.Scanner ("0 0 0 0");
+        scanner.set(mainClass, new java.util.Scanner ("0 0 0 0"));
         mainMethod.invoke(mainClass);
-        String out = output.replace ("\n", " ").trim ();
+        String out = ((String)output.get(mainClass)).replace ("\n", " ").trim ();
         assertEquals (expected.replace (" ", ""), out.replace (" ", ""));
     }
     
-//    @Test (timeout = 1000) public void test2 () throws Exception {
-//        String expected =
-//            "Please enter 4 numbers separated by spaces > 0 is the smallest";
-//        mainClass.scanner = new java.util.Scanner ("0 0 1 2");
-//        mainClass.exec ();
-//        String out = mainClass.output.replace ("\n", " ").trim ();
-//        assertEquals (expected.replace (" ", ""), out.replace (" ", ""));
-//    }
-//    @Test (timeout = 1000) public void test3 () throws Exception {
-//        String expected =
-//            "Please enter 4 numbers separated by spaces > 0 is the smallest";
-//        mainClass.scanner = new java.util.Scanner ("0 0 1 0");
-//        mainClass.exec ();
-//        String out = mainClass.output.replace ("\n", " ").trim ();
-//        assertEquals (expected.replace (" ", ""), out.replace (" ", ""));
-//    }
-//    @Test (timeout = 1000) public void test4 () throws Exception {
-//        String expected =
-//            "Please enter 4 numbers separated by spaces > 0 is the smallest";
-//        mainClass.scanner = new java.util.Scanner ("0 0 3 1");
-//        mainClass.exec ();
-//        String out = mainClass.output.replace ("\n", " ").trim ();
-//        assertEquals (expected.replace (" ", ""), out.replace (" ", ""));
-//    }
-//    @Test (timeout = 1000) public void test5 () throws Exception {
-//        String expected =
-//            "Please enter 4 numbers separated by spaces > 0 is the smallest";
-//        mainClass.scanner = new java.util.Scanner ("0 1 0 0");
-//        mainClass.exec ();
-//        String out = mainClass.output.replace ("\n", " ").trim ();
-//        assertEquals (expected.replace (" ", ""), out.replace (" ", ""));
-//    }
-//    @Test (timeout = 1000) public void test6 () throws Exception {
-//        String expected =
-//            "Please enter 4 numbers separated by spaces > 0 is the smallest";
-//        mainClass.scanner = new java.util.Scanner ("0 1 1 1");
-//        mainClass.exec ();
-//        String out = mainClass.output.replace ("\n", " ").trim ();
-//        assertEquals (expected.replace (" ", ""), out.replace (" ", ""));
-//    }
-//    @Test (timeout = 1000) public void test7 () throws Exception {
-//        String expected =
-//            "Please enter 4 numbers separated by spaces > 0 is the smallest";
-//        mainClass.scanner = new java.util.Scanner ("0 1 1 0");
-//        mainClass.exec ();
-//        String out = mainClass.output.replace ("\n", " ").trim ();
-//        assertEquals (expected.replace (" ", ""), out.replace (" ", ""));
-//    }
-//    @Test (timeout = 1000) public void test8 () throws Exception {
-//        String expected =
-//            "Please enter 4 numbers separated by spaces > 0 is the smallest";
-//        mainClass.scanner = new java.util.Scanner ("0 1 3 1");
-//        mainClass.exec ();
-//        String out = mainClass.output.replace ("\n", " ").trim ();
-//        assertEquals (expected.replace (" ", ""), out.replace (" ", ""));
-//    }
+    @Test (timeout = 1000) public void test2 () throws Exception {
+        String expected =
+            "Please enter 4 numbers separated by spaces > 0 is the smallest";
+       scanner.set(mainClass, new java.util.Scanner ("0 0 1 2"));
+       mainMethod.invoke(mainClass);
+        String out = ((String)output.get(mainClass)).replace ("\n", " ").trim ();
+        assertEquals (expected.replace (" ", ""), out.replace (" ", ""));
+    }
+    @Test (timeout = 1000) public void test3 () throws Exception {
+        String expected =
+            "Please enter 4 numbers separated by spaces > 0 is the smallest";
+       scanner.set(mainClass, new java.util.Scanner ("0 0 1 0"));
+       mainMethod.invoke(mainClass);
+        String out = ((String)output.get(mainClass)).replace ("\n", " ").trim ();
+        assertEquals (expected.replace (" ", ""), out.replace (" ", ""));
+    }
+    @Test (timeout = 1000) public void test4 () throws Exception {
+        String expected =
+            "Please enter 4 numbers separated by spaces > 0 is the smallest";
+       scanner.set(mainClass, new java.util.Scanner ("0 0 3 1"));
+       mainMethod.invoke(mainClass);
+        String out = ((String)output.get(mainClass)).replace ("\n", " ").trim ();
+        assertEquals (expected.replace (" ", ""), out.replace (" ", ""));
+    }
+    @Test (timeout = 1000) public void test5 () throws Exception {
+        String expected =
+            "Please enter 4 numbers separated by spaces > 0 is the smallest";
+       scanner.set(mainClass, new java.util.Scanner ("0 1 0 0"));
+       mainMethod.invoke(mainClass);
+        String out = ((String)output.get(mainClass)).replace ("\n", " ").trim ();
+        assertEquals (expected.replace (" ", ""), out.replace (" ", ""));
+    }
+    @Test (timeout = 1000) public void test6 () throws Exception {
+        String expected =
+            "Please enter 4 numbers separated by spaces > 0 is the smallest";
+       scanner.set(mainClass, new java.util.Scanner ("0 1 1 1"));
+       mainMethod.invoke(mainClass);
+        String out = ((String)output.get(mainClass)).replace ("\n", " ").trim ();
+        assertEquals (expected.replace (" ", ""), out.replace (" ", ""));
+    }
+    @Test (timeout = 1000) public void test7 () throws Exception {
+        String expected =
+            "Please enter 4 numbers separated by spaces > 0 is the smallest";
+       scanner.set(mainClass, new java.util.Scanner ("0 1 1 0"));
+       mainMethod.invoke(mainClass);
+        String out = ((String)output.get(mainClass)).replace ("\n", " ").trim ();
+        assertEquals (expected.replace (" ", ""), out.replace (" ", ""));
+    }
+    @Test (timeout = 1000) public void test8 () throws Exception {
+        String expected =
+            "Please enter 4 numbers separated by spaces > 0 is the smallest";
+       scanner.set(mainClass, new java.util.Scanner ("0 1 3 1"));
+       mainMethod.invoke(mainClass);
+        String out = ((String)output.get(mainClass)).replace ("\n", " ").trim ();
+        assertEquals (expected.replace (" ", ""), out.replace (" ", ""));
+    }
 }

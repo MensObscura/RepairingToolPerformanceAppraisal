@@ -1,86 +1,46 @@
-févr. 08, 2016 8:35:34 PM esi.util.Config <clinit>
-INFOS: Logger configured: file:/local/rosa/IDL/Genetic/RepairingToolPerformanceAppraisal/soft/finch/conf/logging.properties
-févr. 08, 2016 8:35:34 PM esi.util.Config <clinit>
-INFOS: Loaded properties: file:/local/rosa/IDL/Genetic/RepairingToolPerformanceAppraisal/soft/finch/conf/esi.properties
-févr. 08, 2016 8:35:34 PM esi.finch.ecj.Experiment <init>
+févr. 08, 2016 11:05:11 PM esi.util.Config <clinit>
+INFOS: Logger configured: file:/home/rosa/IDL/RepairingToolPerformanceAppraisal/soft/finch/conf/logging.properties
+févr. 08, 2016 11:05:11 PM esi.util.Config <clinit>
+INFOS: Loaded properties: file:/home/rosa/IDL/RepairingToolPerformanceAppraisal/soft/finch/conf/esi.properties
+févr. 08, 2016 11:05:11 PM esi.finch.ecj.Experiment <init>
 INFOS: Experiment configured:
-    -file /local/rosa/IDL/Genetic/RepairingToolPerformanceAppraisal/soft/finch/bin/esi/finch/probs/intro-class.params
+    -file /home/rosa/IDL/RepairingToolPerformanceAppraisal/soft/finch/bin/esi/finch/probs/intro-class.params
     -p eval.problem=esi.finch.ecj.bc.BytecodeProblem
     -p prefix=../output/ecj/cp
     -p stat.file=$../output/ecj/ecj.log
-févr. 08, 2016 8:35:34 PM esi.finch.ecj.Experiment run
+févr. 08, 2016 11:05:11 PM esi.finch.ecj.Experiment run
 INFOS: Running experiment esi.finch.ecj.bc.BytecodeProblem / intro-class.params
-févr. 08, 2016 8:35:34 PM esi.finch.ecj.bc.BytecodeProblem setup
+févr. 08, 2016 11:05:11 PM esi.finch.ecj.bc.BytecodeProblem setup
 INFOS: Bytecode problem set up:
     eval-class=esi.finch.probs.IntroClassEvaluator
     timeout=5000ms
     steps=0
-févr. 08, 2016 8:35:34 PM esi.finch.ecj.immutable.ImmutableCrossoverPipeline setup
+févr. 08, 2016 11:05:11 PM esi.finch.ecj.immutable.ImmutableCrossoverPipeline setup
 INFOS: Crossover pipeline set up
-févr. 08, 2016 8:35:34 PM esi.finch.ecj.immutable.ImmutableMutationPipeline setup
+févr. 08, 2016 11:05:11 PM esi.finch.ecj.immutable.ImmutableMutationPipeline setup
 INFOS: Mutation pipeline set up
-févr. 08, 2016 8:35:34 PM esi.finch.ecj.bc.BytecodeIndividual setup
+févr. 08, 2016 11:05:11 PM esi.finch.ecj.bc.BytecodeIndividual setup
 INFOS: Bytecode individual set up:
-    class=esi.finch.probs.type.src.CasConstante
-    method=getToto()I
-    size=4
-    xo-class=esi.finch.xo.NothingCrossoverFinder
-    mut-class=esi.finch.mut.PlusOneConstantMutator
+    class=esi.finch.probs.introclass.src.smallest_15cb07a7_007
+    method=exec()V
+    size=202
+    xo-class=esi.finch.xo.GaussianCrossoverFinder
+    mut-class=none
     max-growth=10.0
-févr. 08, 2016 8:35:34 PM esi.finch.ecj.immutable.ImmutableSpecies setup
+févr. 08, 2016 11:05:11 PM esi.finch.ecj.immutable.ImmutableSpecies setup
 INFOS: Species set up:
     xo=0.8
-    mut=0.8
-févr. 08, 2016 8:35:34 PM esi.finch.ecj.bc.BytecodeStatistics postInitializationStatistics
+    mut=0.0
+févr. 08, 2016 11:05:11 PM esi.finch.ecj.bc.BytecodeStatistics postInitializationStatistics
 INFOS: Population initialized:
-    sub-pop 0 size=10
-févr. 08, 2016 8:35:34 PM esi.finch.mut.PlusOneConstantMutator mutate
-AVERTISSEMENT: 0 ---> 1
-févr. 08, 2016 8:35:34 PM esi.finch.mut.PlusOneConstantMutator mutate
-AVERTISSEMENT: 0 ---> 1
-févr. 08, 2016 8:35:34 PM esi.finch.mut.PlusOneConstantMutator mutate
-AVERTISSEMENT: 0 ---> 1
-févr. 08, 2016 8:35:34 PM esi.finch.mut.PlusOneConstantMutator mutate
-AVERTISSEMENT: 0 ---> 1
-févr. 08, 2016 8:35:34 PM esi.finch.mut.PlusOneConstantMutator mutate
-AVERTISSEMENT: 0 ---> 1
-févr. 08, 2016 8:35:34 PM esi.finch.mut.PlusOneConstantMutator mutate
-AVERTISSEMENT: 0 ---> 1
-févr. 08, 2016 8:35:34 PM esi.finch.mut.PlusOneConstantMutator mutate
-AVERTISSEMENT: 0 ---> 1
-févr. 08, 2016 8:35:34 PM esi.finch.mut.PlusOneConstantMutator mutate
-AVERTISSEMENT: 0 ---> 1
-févr. 08, 2016 8:35:34 PM esi.finch.mut.PlusOneConstantMutator mutate
-AVERTISSEMENT: 0 ---> 1
-févr. 08, 2016 8:35:34 PM esi.finch.mut.PlusOneConstantMutator mutate
-AVERTISSEMENT: 0 ---> 1
-févr. 08, 2016 8:35:34 PM esi.finch.mut.PlusOneConstantMutator mutate
-AVERTISSEMENT: 0 ---> 1
-févr. 08, 2016 8:35:34 PM esi.finch.mut.PlusOneConstantMutator mutate
-AVERTISSEMENT: 0 ---> 1
-févr. 08, 2016 8:35:34 PM esi.finch.mut.PlusOneConstantMutator mutate
-AVERTISSEMENT: 0 ---> 1
-févr. 08, 2016 8:35:34 PM esi.finch.mut.PlusOneConstantMutator mutate
-AVERTISSEMENT: 0 ---> 1
-févr. 08, 2016 8:35:34 PM esi.finch.mut.PlusOneConstantMutator mutate
-AVERTISSEMENT: 0 ---> 1
-févr. 08, 2016 8:35:34 PM esi.finch.mut.PlusOneConstantMutator mutate
-AVERTISSEMENT: 0 ---> 1
-févr. 08, 2016 8:35:34 PM esi.finch.mut.PlusOneConstantMutator mutate
-AVERTISSEMENT: 0 ---> 1
-févr. 08, 2016 8:35:34 PM esi.finch.mut.PlusOneConstantMutator mutate
-AVERTISSEMENT: 0 ---> 1
-févr. 08, 2016 8:35:34 PM esi.finch.mut.PlusOneConstantMutator mutate
-AVERTISSEMENT: 0 ---> 1
-févr. 08, 2016 8:35:34 PM esi.finch.mut.PlusOneConstantMutator mutate
-AVERTISSEMENT: 0 ---> 1
-févr. 08, 2016 8:35:34 PM esi.finch.ecj.bc.BytecodeIndividual saveClass
-INFOS: Saved Bytecode = esi.finch.probs.type.src.CasConstante_G1_T0_2.getToto()I [206] in directory /local/rosa/IDL/Genetic/RepairingToolPerformanceAppraisal/soft/finch/finch/../output/ecj
-févr. 08, 2016 8:35:34 PM esi.finch.ecj.bc.BytecodeProblem describe
-INFOS: Best individual: Bytecode = esi.finch.probs.type.src.CasConstante_G1_T0_2.getToto()I [206]
-févr. 08, 2016 8:35:34 PM esi.finch.ecj.Experiment run
+    sub-pop 0 size=100
+févr. 08, 2016 11:05:30 PM esi.finch.ecj.bc.BytecodeIndividual saveClass
+INFOS: Saved Bytecode = esi.finch.probs.introclass.src.smallest_15cb07a7_007_G3_T1_70.exec()V [1877] in directory /home/rosa/IDL/RepairingToolPerformanceAppraisal/soft/finch/finch/../output/ecj
+févr. 08, 2016 11:05:30 PM esi.finch.ecj.bc.BytecodeProblem describe
+INFOS: Best individual: Bytecode = esi.finch.probs.introclass.src.smallest_15cb07a7_007_G3_T1_70.exec()V [1877]
+févr. 08, 2016 11:05:30 PM esi.finch.ecj.Experiment run
 INFOS: Experiment completed
-févr. 08, 2016 8:35:34 PM esi.util.SandBox <clinit>
+févr. 08, 2016 11:05:30 PM esi.util.SandBox <clinit>
 INFOS: Creating sandbox thread pool
-févr. 08, 2016 8:35:34 PM esi.util.SandBox shutdown
+févr. 08, 2016 11:05:30 PM esi.util.SandBox shutdown
 INFOS: Shutting down sandbox thread pool

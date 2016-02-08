@@ -1,9 +1,8 @@
 parent.0	=	../ecj/bc/bytecode.params
 
 # major parameters change
-ec.subpop.size					= 10
-breed.elite.0					= 0
-generations						= 2
+ec.subpop.size					= 100
+generations						= 20
 immutable.species.xo-prob		= 0.8
 
 

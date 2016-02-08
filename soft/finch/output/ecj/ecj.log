@@ -3,18 +3,5 @@ Generation: 0
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: 0.0
-Bytecode = esi.finch.probs.introclass.src.smallest_15cb07a7_007.exec()V [202]
-
-Generation: 1
-Best Individual:
-Subpopulation 0:
-Evaluated: T
-Fitness: 0.0
-Bytecode = esi.finch.probs.introclass.src.smallest_15cb07a7_007_G1_T0_1.exec()V [1816]
-
-Best Individual of Run:
-Subpopulation 0:
-Evaluated: T
-Fitness: 0.0
-Bytecode = esi.finch.probs.introclass.src.smallest_15cb07a7_007.exec()V [202]
+Fitness: 8.0
+Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]

@@ -1,44 +1,36 @@
-févr. 08, 2016 8:57:51 PM esi.util.Config <clinit>
-INFOS: Logger configured: file:/local/rosa/IDL/Genetic/RepairingToolPerformanceAppraisal/soft/finch/conf/logging.properties
-févr. 08, 2016 8:57:51 PM esi.util.Config <clinit>
-INFOS: Loaded properties: file:/local/rosa/IDL/Genetic/RepairingToolPerformanceAppraisal/soft/finch/conf/esi.properties
-févr. 08, 2016 8:57:51 PM esi.finch.ecj.Experiment <init>
+févr. 08, 2016 11:10:39 PM esi.util.Config <clinit>
+INFOS: Logger configured: file:/home/rosa/IDL/RepairingToolPerformanceAppraisal/soft/finch/conf/logging.properties
+févr. 08, 2016 11:10:39 PM esi.util.Config <clinit>
+INFOS: Loaded properties: file:/home/rosa/IDL/RepairingToolPerformanceAppraisal/soft/finch/conf/esi.properties
+févr. 08, 2016 11:10:39 PM esi.finch.ecj.Experiment <init>
 INFOS: Experiment configured:
-    -file /local/rosa/IDL/Genetic/RepairingToolPerformanceAppraisal/soft/finch/bin/esi/finch/probs/intro-class.params
+    -file /home/rosa/IDL/RepairingToolPerformanceAppraisal/soft/finch/bin/esi/finch/probs/intro-class.params
     -p eval.problem=esi.finch.ecj.bc.BytecodeProblem
     -p prefix=../output/ecj/cp
     -p stat.file=$../output/ecj/ecj.log
-févr. 08, 2016 8:57:51 PM esi.finch.ecj.Experiment run
+févr. 08, 2016 11:10:39 PM esi.finch.ecj.Experiment run
 INFOS: Running experiment esi.finch.ecj.bc.BytecodeProblem / intro-class.params
-févr. 08, 2016 8:57:51 PM esi.finch.ecj.bc.BytecodeProblem setup
+févr. 08, 2016 11:10:39 PM esi.finch.ecj.bc.BytecodeProblem setup
 INFOS: Bytecode problem set up:
     eval-class=esi.finch.probs.IntroClassEvaluator
     timeout=5000ms
     steps=0
-févr. 08, 2016 8:57:51 PM esi.finch.ecj.immutable.ImmutableCrossoverPipeline setup
+févr. 08, 2016 11:10:39 PM esi.finch.ecj.immutable.ImmutableCrossoverPipeline setup
 INFOS: Crossover pipeline set up
-févr. 08, 2016 8:57:51 PM esi.finch.ecj.immutable.ImmutableMutationPipeline setup
+févr. 08, 2016 11:10:39 PM esi.finch.ecj.immutable.ImmutableMutationPipeline setup
 INFOS: Mutation pipeline set up
-févr. 08, 2016 8:57:51 PM esi.finch.ecj.bc.BytecodeIndividual setup
+févr. 08, 2016 11:10:39 PM esi.finch.ecj.bc.BytecodeIndividual setup
 INFOS: Bytecode individual set up:
-    class=esi.finch.probs.introclass.src.smallest_15cb07a7_007
+    class=esi.finch.probs.syllables_fcf701e8_002
     method=exec()V
-    size=202
-    xo-class=esi.finch.xo.UniformCrossoverFinder
+    size=150
+    xo-class=esi.finch.xo.FixedGaussianCrossoverFinder
     mut-class=none
     max-growth=10.0
-févr. 08, 2016 8:57:51 PM esi.finch.ecj.immutable.ImmutableSpecies setup
+févr. 08, 2016 11:10:39 PM esi.finch.ecj.immutable.ImmutableSpecies setup
 INFOS: Species set up:
     xo=0.8
     mut=0.0
-févr. 08, 2016 8:57:51 PM esi.finch.ecj.bc.BytecodeStatistics postInitializationStatistics
+févr. 08, 2016 11:10:39 PM esi.finch.ecj.bc.BytecodeStatistics postInitializationStatistics
 INFOS: Population initialized:
-    sub-pop 0 size=10
-févr. 08, 2016 8:57:52 PM esi.finch.ecj.bc.BytecodeProblem describe
-INFOS: Best individual: Bytecode = esi.finch.probs.introclass.src.smallest_15cb07a7_007.exec()V [202]
-févr. 08, 2016 8:57:52 PM esi.finch.ecj.Experiment run
-INFOS: Experiment completed
-févr. 08, 2016 8:57:52 PM esi.util.SandBox <clinit>
-INFOS: Creating sandbox thread pool
-févr. 08, 2016 8:57:52 PM esi.util.SandBox shutdown
-INFOS: Shutting down sandbox thread pool
+    sub-pop 0 size=100

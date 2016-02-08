@@ -9,7 +9,7 @@ import org.junit.Test;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import esi.finch.probs.IntroClassEvaluator;
+import esi.finch.probs.IntroClassWhiteBoxEvaluator;
 import esi.util.Config;
 
 
@@ -20,7 +20,7 @@ public class CasConstanteWhiteboxTest {
 	@Before
 	public void getClassFromEvalutaor(){
 		try {
-			Method[] m = IntroClassEvaluator.getGeneratedClass().newInstance().getClass().getMethods();
+			Method[] m = IntroClassWhiteBoxEvaluator.getGeneratedClass().newInstance().getClass().getMethods();
 			for(int i = 0 ; i < m.length; i++){
 				if(m[i].getName().equals("getToto")){
 					mainMethod = m[i];
@@ -28,7 +28,7 @@ public class CasConstanteWhiteboxTest {
 				}
 			}
 		} catch (InstantiationException | IllegalAccessException e) {
-			log.error("Cant get method from: "+IntroClassEvaluator.getGeneratedClass());
+			log.error("Cant get method from: "+IntroClassWhiteBoxEvaluator.getGeneratedClass());
 		}
 	}
 	

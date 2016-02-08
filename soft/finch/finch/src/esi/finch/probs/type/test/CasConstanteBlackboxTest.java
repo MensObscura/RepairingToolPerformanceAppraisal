@@ -9,8 +9,7 @@ import org.apache.commons.logging.Log;
 import org.junit.Before;
 import org.junit.Test;
 
-import esi.finch.probs.IntroClassEvaluator;
-import esi.finch.probs.type.src.CasConstante;
+import esi.finch.probs.IntroClassBlackBoxEvaluator;
 import esi.util.Config;
 
 
@@ -21,7 +20,7 @@ public class CasConstanteBlackboxTest {
 	@Before
 	public void getClassFromEvalutaor(){
 		try {
-			Method[] m = IntroClassEvaluator.getGeneratedClass().newInstance().getClass().getMethods();
+			Method[] m = IntroClassBlackBoxEvaluator.getGeneratedClass().newInstance().getClass().getMethods();
 			for(int i = 0 ; i < m.length; i++){
 				if(m[i].getName().equals("getToto")){
 					mainMethod = m[i];
@@ -29,7 +28,7 @@ public class CasConstanteBlackboxTest {
 				}
 			}
 		} catch (InstantiationException | IllegalAccessException e) {
-			log.error("Cant get method from: "+IntroClassEvaluator.getGeneratedClass());
+			log.error("Cant get method from: "+IntroClassBlackBoxEvaluator.getGeneratedClass());
 		}
 	}
 	
