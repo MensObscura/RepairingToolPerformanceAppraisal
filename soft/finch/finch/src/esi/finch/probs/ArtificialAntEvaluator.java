@@ -93,6 +93,8 @@ public class ArtificialAntEvaluator implements BytecodeEvaluator {
 		// Parsimony
 		//if (valid)
 		//	fitness += 1.0f / ind.size();
+		
+		System.out.println( fitness);
 
 		assert !valid  ||  fitness >= 0;
 

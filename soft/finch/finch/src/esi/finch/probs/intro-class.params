@@ -1,13 +1,16 @@
 parent.0	=	../ecj/bc/bytecode.params
 
 # major parameters change
-ec.subpop.size					= 1000
-generations						= 11
+ec.subpop.size					= 10
+breed.elite.0					= 0
+generations						= 2
+immutable.species.xo-prob		= 0.8
+
 
 # bytecode invidividual and its evaluator
-bytecode.ind.class				= esi.finch.probs.syllables_fcf701e8_002
+bytecode.ind.class				= esi.finch.probs.introclass.src.smallest_15cb07a7_007
 bytecode.ind.method-name		= exec
 bytecode.ind.xo-class			= esi.finch.xo.UniformCrossoverFinder
-bytecode.ind.max-growth			= 4.0
+bytecode.ind.max-growth			= 10.0
 
 bytecode.prob.eval-class		= esi.finch.probs.IntroClassEvaluator

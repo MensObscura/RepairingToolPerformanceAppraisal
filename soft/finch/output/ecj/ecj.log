@@ -3,81 +3,18 @@ Generation: 0
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: 5.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
+Fitness: 0.0
+Bytecode = esi.finch.probs.introclass.src.smallest_15cb07a7_007.exec()V [202]
 
 Generation: 1
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: 5.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
-
-Generation: 2
-Best Individual:
-Subpopulation 0:
-Evaluated: T
-Fitness: 5.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
-
-Generation: 3
-Best Individual:
-Subpopulation 0:
-Evaluated: T
-Fitness: 5.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
-
-Generation: 4
-Best Individual:
-Subpopulation 0:
-Evaluated: T
-Fitness: 5.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
-
-Generation: 5
-Best Individual:
-Subpopulation 0:
-Evaluated: T
-Fitness: 5.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
-
-Generation: 6
-Best Individual:
-Subpopulation 0:
-Evaluated: T
-Fitness: 5.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
-
-Generation: 7
-Best Individual:
-Subpopulation 0:
-Evaluated: T
-Fitness: 5.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
-
-Generation: 8
-Best Individual:
-Subpopulation 0:
-Evaluated: T
-Fitness: 5.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
-
-Generation: 9
-Best Individual:
-Subpopulation 0:
-Evaluated: T
-Fitness: 5.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
-
-Generation: 10
-Best Individual:
-Subpopulation 0:
-Evaluated: T
-Fitness: 5.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
+Fitness: 0.0
+Bytecode = esi.finch.probs.introclass.src.smallest_15cb07a7_007_G1_T0_1.exec()V [1816]
 
 Best Individual of Run:
 Subpopulation 0:
 Evaluated: T
-Fitness: 5.0
-Bytecode = esi.finch.probs.syllables_fcf701e8_002.exec()V [150]
+Fitness: 0.0
+Bytecode = esi.finch.probs.introclass.src.smallest_15cb07a7_007.exec()V [202]
